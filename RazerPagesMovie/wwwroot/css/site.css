@@ -1,0 +1,105 @@
+html {
+    font-family: 'Fira Code';
+    font-size: 18px;
+    max-width: 100vw;
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 60px;
+    background-image: radial-gradient(circle, #bb6bd1, #a36ece, #8b70c9, #7670c1, #626fb7, #4d74b6, #3977b1, #297aab, #0483a9, #008ca4, #1c939c, #3a9993);
+}
+a{
+    text-decoration: none;
+    color: #F9F871;
+    transition: 0.2s;
+    text-shadow:0px 0px 2px #556;
+}
+a:hover {
+    color: #F9F871;
+    text-decoration: underline;
+    text-decoration-color: #FF6F91;
+    transition: 0.2s;
+}
+.title{
+    text-align: center;
+}
+nav {
+    background-image: linear-gradient(to right bottom, #d16b98, #c36ea7, #b173b4, #9b78bd, #837dc2, #7087ca, #5b90ce, #4898ce, #3fa7d1, #45b6d0, #59c3cd, #73cfc9);
+}
+.navbar-brand{
+    color:#556;
+}
+.navbar-brand:hover{
+    color:#556;
+    text-decoration:none;
+}
+.container{
+    overflow-wrap:anywhere;
+}
+.contenido {
+    padding: 20px;
+    border: 0px solid black;
+    border-radius: 10px;
+    box-shadow: 15px 10px #9b78bd;
+    background-image: linear-gradient(to left bottom, #d16b98, #c36ea7, #b173b4, #9b78bd, #837dc2, #7087ca, #5b90ce, #4898ce, #3fa7d1, #45b6d0, #59c3cd, #73cfc9);
+    overflow: auto; 
+}
+.btn-primary {
+    border:0px;
+    margin-top: 10px;
+    background: linear-gradient(
+        190deg,
+        #FF9671,
+        #FFC75F,
+        #F9F871
+    );
+    color: #212529;
+}
+#btn-filter {
+    border: 0px;
+    border-radius: 7px;
+    background: linear-gradient( 190deg, #FF9671, #FFC75F, #F9F871 );
+    color: #212529;
+}
+.search-engine{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+#search-motor-input{
+    border:0px;
+    border-radius: 10px;
+    padding-left: 10px;
+    
+}
+table{
+    overflow:auto;
+}
+.privacy-text{
+    color:#556;
+}
+.privacy-link{
+    text-shadow: 1px 1px 1px black;
+}
+@media (max-width: 370px) {
+    html {
+        font-size: 10px;
+    }
+    .contenido {
+        padding: 10px;
+        border: 0px solid black;
+        border-radius: 10px;
+        box-shadow: 0px 5px #556;
+    }
+}
+@media (max-width: 450px){
+    html{
+        font-size: 12px;
+    }
+    .contenido{
+        padding: 14px;
+        border-radius: 21px;
+        box-shadow: 7px 7px #556;
+    }
+}
